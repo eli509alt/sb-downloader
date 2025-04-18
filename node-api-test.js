@@ -1,7 +1,7 @@
 import * as SBDL from './src/export-node.js';
 
 console.time('Download project');
-SBDL.downloadProjectFromID('60917032', {
+SBDL.downloadProjectFromName('GetTheFuckOutOfThisProjectAndPlayIncrediboxInsteadOfThisShit', {
   onProgress: (type, loaded, total) => {
     console.log(type, loaded, total);
   }
